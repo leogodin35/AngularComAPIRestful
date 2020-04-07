@@ -10,6 +10,7 @@ import { ListaLembreteComponent } from './paginas/lista-lembrete/lista-lembrete.
 import { FormLembreteComponent } from './compartilhado/form-lembrete/form-lembrete.component';
 import { CriarLembreteComponent } from './paginas/criar-lembrete/criar-lembrete.component';
 import { EditarLembreteComponent } from './paginas/editar-lembrete/editar-lembrete.component';
+import { TooltipExemploComponent } from './compartilhado/tooltip-exemplo/tooltip-exemplo.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EditarLembreteComponent } from './paginas/editar-lembrete/editar-lembre
     ListaLembreteComponent,
     FormLembreteComponent,
     CriarLembreteComponent,
-    EditarLembreteComponent
+    EditarLembreteComponent,
+    TooltipExemploComponent
   ],
   imports: [
     BrowserModule,
